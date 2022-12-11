@@ -70,32 +70,35 @@ footer{
 
 @media screen and (max-width:768px){
   main{
-    width:90git\%;
-    display:block;
-  }
-  
-  .step-box{
     width:100%;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+  }
+
+  .step-box{
+    width:90%;
     margin-bottom:20px;
     display:block;
+    margin-right:0;
   }
-  
+
   .step-img{
     width:100%;
   }
-  
+
   .step-img2{
     width:100%;
   }
-  
+
   .step-img3{
     width:100%;
   }
-  
+
   .stepbox-first-child{
     margin-top:50px;
   }
-  
+
   .stepbox-last-child{
     margin-bottom:50px;
   }
